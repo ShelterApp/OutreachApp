@@ -12,11 +12,11 @@ function BottomNav() {
         <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-white justify-content-between flex-nowrap flex-row">
             <div className="container space-around">
                 <ul className = "navbar-nav flex-row">
-                    <li className="nav-item"><NavLink to="/supplies" className="nav-link" activeClassName="nav-link--active"><HotelOutlinedIcon fontSize="large"/><p>Supplies</p></NavLink></li>
-                    <li className="nav-item"><NavLink to="/checklists" className="nav-link" activeClassName="nav-link--active"><ListAltOutlinedIcon fontSize="large"/><p>Checklists</p></NavLink></li>
-                    <li className="nav-item"><NavLink to="/" exact className="nav-link" activeClassName="nav-link--active"><HomeOutlinedIcon fontSize="large"/><p>Home</p></NavLink></li>
-                    <li className="nav-item"><NavLink to="/camps" className="nav-link" activeClassName="nav-link--active"><MapOutlinedIcon fontSize="large"/><p>Camps</p></NavLink></li>
-                    <li className="nav-item"><NavLink to="/volunteers" className="nav-link" activeClassName="nav-link--active"><LocalHospitalOutlinedIcon fontSize="large"/><p>Volunteers</p></NavLink></li>
+                    <li className="nav-item"><NavLink to="/supplies" className="nav-link" activeClassName="nav-link--active"><HotelOutlinedIcon fontSize="large" className="nav-icon"/><p className="nav-text">Supplies</p></NavLink></li>
+                    <li className="nav-item"><NavLink to="/checklists" className="nav-link" activeClassName="nav-link--active"><ListAltOutlinedIcon fontSize="large" className="nav-icon"/><p className="nav-text">Checklists</p></NavLink></li>
+                    <li className="nav-item"><NavLink to="/" exact className="nav-link" activeClassName="nav-link--active"><HomeOutlinedIcon fontSize="large" className="nav-icon"/><p className="nav-text">Home</p></NavLink></li>
+                    <li className="nav-item"><NavLink to="/camps" className="nav-link" activeClassName="nav-link--active"><MapOutlinedIcon fontSize="large" className="nav-icon"/><p className="nav-text">Camps</p></NavLink></li>
+                    <li className="nav-item"><NavLink to="/volunteers" className="nav-link" activeClassName="nav-link--active"><LocalHospitalOutlinedIcon fontSize="large" className="nav-icon"/><p className="nav-text">Volunteers</p></NavLink></li>
                 </ul>
             </div>
         </nav>
