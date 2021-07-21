@@ -28,9 +28,17 @@ form.search-bar input {
 
 .container{
     display: flex;
+    background-color:darkslategrey;
     width: 50% !important; 
     height: 80px !important;
     margin: auto;
+}
+
+#map-table {
+    border-style: solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container.space-around {
@@ -45,8 +53,17 @@ form.search-bar input {
 .nav-link{
     color: #000 !important;
     text-decoration: none;
+    transition: font-weight ease-in-out;
 }
 
+.nav-link:hover{
+    opacity: 50% !important;
+}
+
+.nav-link--active * {
+    font-weight: bold;
+    color: #7902A1;
+}
 
 
 
