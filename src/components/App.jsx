@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import BottomNav from "./BottomNav";
 
@@ -9,8 +9,8 @@ import HomePage from "./HomePage";
 import CampsPage from "./CampsPage";
 import VolunteersPage from "./VolunteersPage";
 
-import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
-import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
+//import AccessAlarmIcon from '@material-ui/icons/AccessAlarm';
+//import ThreeDRotation from '@material-ui/icons/ThreeDRotation';
 
 function App() {
   return (
