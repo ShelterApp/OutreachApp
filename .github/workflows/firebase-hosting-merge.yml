@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create appConfig
-        run: echo ${{secrets.MAP_KEY}} > "./src/appConfig.json"
+      - run: echo ${{secrets.MAP_KEY}} > "./src/appConfig.json"
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
