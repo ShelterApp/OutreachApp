@@ -15,10 +15,12 @@ This work is licensed under a
 # Developer settings
 
 Run the following commands in the root directory on Terminal:
-`github clone https://github.com/ShelterApp/OutreachApp.git`
-`npm install`
-`npm i @react-google-maps/api`
-`npm install dotenv`
+```
+github clone https://github.com/ShelterApp/OutreachApp.git
+npm install
+npm i @react-google-maps/api
+npm install dotenv
+```
 
 Create a file called `.env` in the root directory using the format found in the file called `.env_sample`. Replace the variable `YOUR_MAP_KEY_HERE` with your own Google API key.
 
