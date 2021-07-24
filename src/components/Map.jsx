@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
-import configData from "./../appConfig.json"
+require('dotenv').config();
 
 export const Map = () => {
+  const map_key = process.env.REACT_APP_MAP_KEY;
+
   const [ selected, setSelected ] = useState({});
   
   const onSelect = item => {
@@ -52,7 +54,7 @@ export const Map = () => {
   
   return (
      <LoadScript
-       googleMapsApiKey={configData.MAP_KEY}>
+       googleMapsApiKey={map_key}>
         <GoogleMap
           mapContainerStyle={mapStyles}
           zoom={14}

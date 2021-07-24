@@ -3,10 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,reactnative,node
 
 # Key Files
-./src/appConfig.json
-src/appConfig.json
-*appConfig.json
-appConfig.json
+.env
 
 ### Node ###
 # Logs
