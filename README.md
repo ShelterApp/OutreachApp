@@ -12,6 +12,18 @@ This work is licensed under a
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
+# Developer settings
+
+Run the following commands in the root directory on Terminal:
+```
+github clone https://github.com/ShelterApp/OutreachApp.git
+npm install
+npm i @react-google-maps/api
+npm install dotenv
+```
+
+Create a file called `.env` in the root directory using the format found in the file called `.env_sample`. Replace the variable `YOUR_MAP_KEY_HERE` with your own Google API key.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
