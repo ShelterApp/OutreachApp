@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div> 
         <SearchBar />
-        <table id="map-table"><tr><th><Map /></th></tr></table>
+        <table id="map-table"><tbody><tr><th><Map /></th></tr></tbody></table>
     </div>
   );
 }
