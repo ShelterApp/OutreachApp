@@ -10,7 +10,8 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout source code
+        uses: actions/checkout@v2
       - name: Create dotenv
         run: 'echo "REACT_APP_MAP_KEY: ${{secrets.MAP_KEY}}" > "./.env"'
       - name: Compile Build
